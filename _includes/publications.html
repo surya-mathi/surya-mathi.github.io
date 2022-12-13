@@ -1,0 +1,22 @@
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
+    {% if page.title == "Home" %}
+      {% for item in site.data.publications.featured %}
+        <div class="publication">
+          <p class="publication-url"><a href="{{ item.url }}">{{ item.name }}</a></p>
+          <p class="publication-author">{{ item.author }}</p>
+          <p class="publication-conference"><em>{{ item.conference }}</em></p>
+        </div>
+      {% endfor %}
+    {% else %}
+      {% for item in site.data.publications.index %}
+        <div class="publication">
+          <p class="publication-url"><a href="{{ item.url }}">{{ item.name }}</a></p>
+          <p class="publication-author">{{ item.author }}</p>
+          <p class="publication-conference"><em>{{ item.conference }}</em></p>
+        </div>     
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>

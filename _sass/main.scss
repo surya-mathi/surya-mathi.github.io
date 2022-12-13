@@ -1,0 +1,38 @@
+$backgroundColor: #ffffff;
+$bodyColor: #000000;
+$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$linkColor: #264d73;
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-family: $bodyFont;
+}
+
+a {
+  color: $linkColor;
+}
+
+.publication a {
+  color: $linkColor;
+}
+
+.publication-url {
+  padding: 0px;
+  margin:  0px;
+  font-size: 20px;
+}
+
+.publication-author {
+  padding: 0px;
+  margin:  0px;
+}
+
+.publication-conference {
+  padding: 0px;  
+  margin:  0px;
+}
+
+.publication {
+  padding: 10px 0px;
+}

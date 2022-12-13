@@ -1,0 +1,21 @@
+featured:
+# - {name: 'Listing Cliques from Smaller Cliques',
+#   author: 'Mina Dalirrooyfard, Surya Mathialagan, Virginia Vassilevska Williams, Yinzhan Xu',
+#   conference: 'Preprint coming soon'}
+- {name: 'MacORAMa: Optimal Oblivious RAM with Integrity',
+  author: 'Surya Mathialagan, Neekon Vafa',
+  conference: 'Preprint coming soon'}
+- {name: 'Listing, Verifying and Counting Lowest Common Ancestors in DAGs: Algorithms and Fine-Grained Lower Bounds',
+  author: 'Surya Mathialagan, Virginia Vassilevska Williams, Yinzhan Xu',
+  url: 'https://arxiv.org/abs/2204.10932',
+  conference: 'ICALP 2022'}
+- {name: 'Distinct Distances between Non-Ruled Surfaces and between Circles', 
+  author: 'Surya Mathialagan, Adam Sheffer', 
+  url: 'https://link.springer.com/article/10.1007/s00454-022-00449-x', 
+  conference : 'Discrete & Computational Geometry (2022)'}
+- {name: 'On Bipartite Distinct Distances in the Plane.', 
+  author: 'Surya Mathialagan', 
+  url: 'https://www.combinatorics.org/ojs/index.php/eljc/article/view/v28i4p33', 
+  conference: 'The Electronic Journal of Combinatorics, Volume 28, Issue 4 (2021), P4.33'}
+
+# index:
